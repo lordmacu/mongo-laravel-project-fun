@@ -1,0 +1,169 @@
+.container-cover-site {
+    height: 350px;
+    width: 100%;
+    background-image: url(https://s3.amazonaws.com/meetworks/cover.jpg);
+}
+
+.container-info{
+    @include desktop-only{
+        padding-left: 30px;
+    }
+
+    @include mobile-only {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.container-modal-review{
+    h3{
+        color: white
+    }
+    p{
+        color: white
+    }
+
+}
+
+
+
+.container-site-review{
+    background-color: white;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.12);
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px
+}
+
+
+.container-site-review-comment{
+    background-color: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container-info-site{
+    background-color: white;
+    margin-top: -80px;
+    @include desktop-only{
+        margin-bottom: 50px;
+    }
+
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.12);
+    box-shadow: 0 1px 4px rgba(0,0,0,.12);
+    padding-bottom:10px;
+    p{
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .container-bio-text{
+        margin-bottom: 10px;
+        border-top: 1px solid #ececec;
+        padding-top: 10px;
+    }
+    h3{
+        font-weight: 400;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .container-map-site{
+
+
+        @include mobile-only{
+            margin-right: 0px !important;
+            margin-left: 0px  !important;
+        }
+        position: relative;
+        #map{
+            height: 60vh;
+            width: 100%;
+            position: relative;
+        }
+    }
+    .logo-info-site{
+        padding: 10px;
+        padding-bottom: 0px
+    }
+}
+
+.container-description-site{
+    @include desktop-only{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: -80px;
+
+    }
+
+    @include mobile-only {
+        margin-top: 30px;                 
+    }
+
+    .container-site-logo{
+        width: 76px;
+        height: 76px;
+
+
+    }
+}
+
+.container-site-logo{
+    text-align: center;
+}
+
+.container-image-mini{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+    margin-bottom: 10px
+}
+
+
+.shadow-down{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+-1,ffffff+0,ffffff+98&0+0,1+67 */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) -1%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 67%, rgba(255,255,255,1) 98%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) -1%,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 67%,rgba(255,255,255,1) 98%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0) -1%,rgba(255,255,255,0) 0%,rgba(255,255,255,1) 67%,rgba(255,255,255,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0
+}
+
+.shadow-up{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.container-work-here{
+    padding-left: 10px;
+    padding-right: 10px;
+}
